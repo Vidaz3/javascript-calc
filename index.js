@@ -17,13 +17,13 @@ num2 = parseFloat(input2)
 
 //Execution of operation
 if(op == op1) {
-    document.write(num1 + num2); 
+    alert(num1 + num2); 
 } else if(op == op2) {
-    document.write(num1 - num2);
+    alert(num1 - num2);
 } else if(op == op3) {
-    document.write(num1 * num2);
+    alert(num1 * num2);
 } else if(op == op4) {
-    document.write(num1 / num2);
-}else {document.write("Invalid operation")}
+    alert(num1 / num2);
+}else {alert("Invalid operation")}
 
 
